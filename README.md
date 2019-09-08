@@ -1,6 +1,12 @@
 # EasyReflect
 Usable and Simple Package to Reflection Go Programming Language
 
+
+### Install
+```
+go get github.com/MehmetEminKaymaz/EasyReflect
+```
+
 ```GO
  Test1:=[]int{1,2,3,4,5}
 

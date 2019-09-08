@@ -2,7 +2,7 @@ package EasyReflect
 
 import "reflect"
 
-func newStructLike(Astruct interface{}) (newStruct interface{}){ //this method return settable and adressable struct
+func NewStructLike(Astruct interface{}) (newStruct interface{}){ //this method return settable and adressable struct
 	ptr:=reflect.New(reflect.TypeOf(Astruct))
 	newStruct=ptr.Elem()
 	return newStruct

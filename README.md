@@ -5,6 +5,7 @@ Usable and Simple Package to Reflection Go Programming Language
 ### Install
 ```
 go get github.com/MehmetEminKaymaz/EasyReflect
+
 ```
 
 ```GO
